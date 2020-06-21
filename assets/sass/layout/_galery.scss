@@ -1,0 +1,23 @@
+#Galery{
+    padding: 10px 200px;
+}
+
+
+@media only screen and ( max-width: 600px) {
+    #Galery{
+        padding: 10px 50px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    p{
+        font-size: 15px;
+ 
+    }
+    h2{
+        font-size: 30px;
+ 
+    }
+  }
+
+  

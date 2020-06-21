@@ -1,0 +1,17 @@
+.yuki{
+    div div:nth-child(1){
+       height: 80px;
+       width: 80px;
+       border-radius: 50%;
+       background-image: url(../images/profile-image.png);
+       background-size: cover;
+       background-position: center; 
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .yuki div div:nth-child(1) {
+        height: 60px;
+        width: 60px;
+    }
+  }
